@@ -147,21 +147,25 @@ if(expirydate>today):
         #print("Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our REAL")
         print("----------Your play time-----------")
-        #print("31st Aug 2021, 11:00 AM- 11:30 AM")
-        #print("31st Aug 2021, 02:00 PM- 02:30 PM")
-        print("10th Sept 2021, 04:30 PM- 05:00 PM")
-        #print("31st Aug 2021, 08:00 PM- 08:30 PM")
+        #print("13th Sep 2021, 11:00 AM- 11:30 AM")
+        #print("13th Sep 2021, 02:00 PM- 02:30 PM")
+        print("13th Sept 2021, 04:30 PM- 05:00 PM")
+        #print("13th Sep 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram  ")
 
 
 
-else:
-    banner='figlet RXCE'
+else: 
+   banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
-    print("Your hack has expired--- Please contact")
-    print(" on telegram ----@Hackmgk for activating")
+    
+    print(" on telegram ----RXCE_HACKER for activating")
+    print(" Recharge Amount :        Total limit " )
+    print(" 1.     1000 INR -------  1 Day (40 Games")
+    print(" 2.     5000 INR -------  7 Days(280 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
+    
