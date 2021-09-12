@@ -166,6 +166,6 @@ else:
     print(" Recharge Amount :        Total limit " )
     print(" 1.     1000 INR -------  1 Day (40 Games")
     print(" 2.     5000 INR -------  7 Days(280 Games")
+
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
-    
