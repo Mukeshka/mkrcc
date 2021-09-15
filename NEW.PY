@@ -124,3 +124,53 @@ def hero():
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n
             #print(numbers)
+                     
+                     
+
+if(expirydate>today):
+    now = datetime.datetime.now()
+    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
+
+    if (now>First and now<Firstend):
+            period=220
+            hero()
+    elif(now>Second and now<Secondend):
+            period=280
+            hero()
+    elif(now>Third and now<Thirdend):
+            period=340
+            hero()
+    elif(now>Final and now<Finalend):
+            period=360
+            hero()
+    else:
+        banner='figlet RXCE'
+        print("Hi!! Thanks for buying the hack")
+        print("----------Your play time-----------")
+        print("1st Sept 2030, 11:00 AM- 11:30 AM")
+        print("1st Sept 2030, 02:00 PM- 02:30 PM")
+        print("1st Sept 2030, 05:00 PM- 05:30 PM")
+        print("1st Sept 2030, 08:00 PM- 08:30 PM")
+        print("Please play on the given time, and ")
+        print("If you think it is an error contact")
+        print(" admin on telegram @hackermgk ")
+
+
+
+else:
+    banner='figlet RXCE'
+    system(banner)
+    print("*---------*----------*-------------*----------*")
+
+    print(" on telegram ----@hackermgk for activating")
+    print(" Recharge Amount :        Total limit " )
+    print(" 1.     1000 INR -------  1 Day (40 Games")
+    print(" 2.     5000 INR -------  7 Days(280 Games")
+    print("*---------*----------*-------------*----------*")
