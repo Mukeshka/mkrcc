@@ -98,7 +98,7 @@ def hero():
                     print(newperiod+1," : GREEN")
                 else:
                     print(newperiod+1," : RED")
-        if i in thatway:
+       if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
@@ -111,7 +111,7 @@ def hero():
                     print(newperiod+1,": GREEN")
                 else:
                     print(newperiod+1,": RED")
-       i=i+1
+        i=i+1
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
