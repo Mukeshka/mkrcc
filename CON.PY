@@ -139,8 +139,8 @@ if(expirydate>today):
     Final = now.replace(hour=20, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=21, minute=35, second=0, microsecond=0)
 
-    elif(True):
-            period=243
+    if(True):
+            period=280
             hero()
     elif(now>Second and now<Secondend):
             period=300
