@@ -10,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 15)
-#expirydate = datetime.date(2021, 12, 30)
+expirydate = datetime.date(2021, 10, 30)
+#expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
 
@@ -72,6 +72,7 @@ def hero():
     while(y):
         clear()
         system(banner)
+        print("Contact me on telegram @hackermgk")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -98,7 +99,7 @@ def hero():
                     print(newperiod+1," : GREEN")
                 else:
                     print(newperiod+1," : RED")
-       if i in thatway:
+        if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
@@ -124,6 +125,7 @@ def hero():
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @hackermgk")
             #print(numbers)
+            
                      
                      
 if(expirydate>today):
