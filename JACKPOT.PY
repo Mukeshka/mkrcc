@@ -120,17 +120,17 @@ def hero():
             
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
-     if (True):
-            period=420
+    if (True):
+            period=280
             hero()
     elif(now>First and now<Firstend):
             period=280
@@ -150,20 +150,11 @@ if(expirydate>today):
         print("5 Sept 2021, 05:42 PM- 08:AM PM")
         print("5 Sept 2021, 06:37 PM- 08:30 AM")
         print("Please play on the given time, and ")
-        print("If you think it is an error contact")
-        print(" admin on telegram @RXCE_HACKER ")
-        (" Channel join krle bhosdke😁 @RXCE_HACKER ")
-
+        
 
 
 else:
     banner='figlet RXCE'
     system(banner)
-    print("*---------*----------*-------------*----------*")
-    
-    print(" on telegram ----@RXCE_HACKER for activating")
-    print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  7 Day (280 Games")
-    print(" 2.     3000 INR -------  30 Days(1200 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
