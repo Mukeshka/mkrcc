@@ -10,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 18)
-playday = datetime.date(2021, 9,17)
+expirydate = datetime.date(2021, 9, 19)
+playday = datetime.date(2021, 9,18)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -96,15 +96,15 @@ def hero():
         if(newperiod%2==0):
             sum=getSum(current)+check
             if(sum%2==0):
-                print(newperiod+1," : GREEN")
+                print(newperiod+1," : RED")
             else:
-                print(newperiod+1,"  : RED")
+                print(newperiod+1,"  : GREEN")
         else:
             sum=getSum(current)+check+1
             if(sum%2==0):
-                print(newperiod+1,"   : GREEN")
-            else:
                 print(newperiod+1,"   : RED")
+            else:
+                print(newperiod+1,"   : GREN")
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
